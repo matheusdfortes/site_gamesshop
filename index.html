@@ -17,10 +17,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">sobre a loja</a>
+                        <a href="#about">sobre a loja</a>
                     </li>
                     <li>
-                        <a href="">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -28,7 +28,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <div class="container">
                 <img src="./images/loja.jpg" alt="Fachada da loja">
                 <div class="section">
@@ -49,6 +49,56 @@
         </section>
     </main>
 
-    <footer></footer>
+    <section id="contact">
+        <div class="container">
+            <h1>Contato</h1>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder ="Seu nome" required>
+                        <input type="email" placeholder ="Seu e-mail" required>
+                        <input type="tel" placeholder ="Seu telefone (opcional)">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social">
+                        <li>
+                            <a href="#" tittle="Siga-nos no instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" tittle="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" tittle="Visite nosso canal no Youtube">
+                                <img src="./images/youtube.png" alt="Logo do Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua Javascripit nº 124 , Vila HTML - São Paulo SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
